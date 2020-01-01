@@ -6,23 +6,27 @@
     <title>Weather</title>
     <link rel="icon" href="img/weather.png">
     <link rel="stylesheet" href="/css/styles.css">
-
+    <link rel="stylesheet" href="css/bootstrap.css">
 </head>
 
 <body>
+    <div class="container">
+        <div class="col-lg-12 col-md-12 ">
     <div class="main-content">
         {{>header}}
 
         <p>Use this site to get your weather!</p>
         <form>
-            <input placeholder="Location">
-            <button>Search</button>
+            <input class="form-control" placeholder="Location">
+            <button class="btn btn-primary mt-3">Search</button>
         </form>
         <h2 id="message-1"></h2>
         <h2 id="message-2"></h2>
     </div>
+    </div>
 
     {{>footer}}
+    </div>
 
 
 

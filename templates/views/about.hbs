@@ -5,18 +5,26 @@
 <html>
 
 <head>
+   
+       
     <title>About</title>
     <link rel="icon" href="img/weather.png">
     <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
 </head>
 
 <body>
+     <div class="container">
+     <div class="col-sm-6 col-lg-12 ">
     <div class="main-content">
         {{>header}}
+        <p>This site was created by Harsh Sahdev</p>
+        <p>It uses data from mapbox.com and darksky.net</p>
         <img class="portrait"src="img/IMG_20190204_234756.jpg" alt="Harsh verma">
     </div>
-
+</div>
     {{>footer}}
+    </div>
 </body>
 
 </html>
